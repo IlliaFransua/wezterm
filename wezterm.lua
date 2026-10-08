@@ -15,13 +15,13 @@ config.colors = {
 }
 
 -- Appearance
-config.window_decorations = "RESIZE"
-config.hide_tab_bar_if_only_one_tab = true
+config.window_decorations = "TITLE"
+config.hide_tab_bar_if_only_one_tab = false
 config.window_padding = {
-	left = 0,
-	right = 0,
-	top = 0,
-	bottom = 0,
+	left = 4,
+	right = 4,
+	top = 4,
+	bottom = 4,
 }
 -- config.window_background_image = constants.bg_image
 -- config.macos_window_background_blur = 40
